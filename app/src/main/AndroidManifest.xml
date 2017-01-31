@@ -19,7 +19,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".InTest" />
-        <activity android:name=".News"></activity>
+        <activity android:name=".News" />
+        <activity android:name=".Health"></activity>
     </application>
 
 </manifest>

@@ -53,6 +53,16 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
+        Button button_health = (Button) findViewById(R.id.button_health);
+        button_health.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, Health.class);
+                startActivity(i);
+            }
+        });
+
+
 
     }
 
