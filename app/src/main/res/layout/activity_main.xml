@@ -31,7 +31,7 @@
                 />
 
             <Button
-                android:id="@+id/news"
+                android:id="@+id/button_news"
                 android:layout_width="170dp"
                 android:layout_height="160dp"
                 android:layout_below="@+id/title"
@@ -42,7 +42,7 @@
                 />
 
             <Button
-                android:id="@+id/InTest"
+                android:id="@+id/button_InTest"
                 android:layout_width="170dp"
                 android:layout_height="160dp"
                 android:layout_below="@+id/title"
